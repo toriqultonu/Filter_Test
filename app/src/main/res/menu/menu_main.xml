@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Report Submenu -->
+    <item
+        android:id="@+id/menu_report"
+        android:title="Report"
+        app:showAsAction="never">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/report_all"
+                    android:checked="true"
+                    android:title="All" />
+                <item
+                    android:id="@+id/report_processing"
+                    android:title="Processing" />
+                <item
+                    android:id="@+id/report_completed"
+                    android:title="Completed" />
+                <item
+                    android:id="@+id/report_in_review"
+                    android:title="In Review" />
+            </group>
+        </menu>
+    </item>
+
+    <!-- Follow-Up Submenu -->
+    <item
+        android:id="@+id/menu_follow_up"
+        android:title="Follow-Up"
+        app:showAsAction="never">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/follow_up_all"
+                    android:checked="true"
+                    android:title="All" />
+                <item
+                    android:id="@+id/follow_up_yes"
+                    android:title="Yes" />
+                <item
+                    android:id="@+id/follow_up_no"
+                    android:title="No" />
+            </group>
+        </menu>
+    </item>
+
+    <!-- Body Region Menu -->
+    <item
+        android:id="@+id/menu_body_region"
+        android:title="Body Region"
+        app:showAsAction="never"/>
+
+    <!-- Done Button -->
+    <item
+        android:id="@+id/menu_done"
+        android:title="Done"
+        app:showAsAction="never" />
+</menu>

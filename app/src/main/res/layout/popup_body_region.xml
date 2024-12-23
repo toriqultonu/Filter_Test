@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <CheckBox
+        android:id="@+id/checkbox_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All"
+        android:checked="true"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_neck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Neck"
+        android:checked="true"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_arms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arms"
+        android:checked="true"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:checked="true"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_legs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Legs"
+        android:checked="true"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_posture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Posture"
+        android:checked="true"/>
+
+</LinearLayout>
